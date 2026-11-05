@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Signing (mai versionare chiavi e password)
+keystore.properties
+*.jks
+*.keystore
+
+# Tooling locale
+.claude/
+.gradle-user/
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/planningMode.xml
+.idea/studiobot.xml
+.idea/runConfigurations.xml
+.idea/AndroidProjectSystem.xml

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">GPS Photo</string>
+
+    <string name="permissions_required_title">Permessi richiesti</string>
+    <string name="permissions_required_body">Servono i permessi di Fotocamera e Posizione per scattare foto georeferenziate.</string>
+    <string name="grant_permissions">Concedi permessi</string>
+    <string name="open_app_settings">Apri impostazioni app</string>
+
+    <string name="recording_notification_channel_name">Registrazione</string>
+    <string name="recording_notification_channel_description">Notifica persistente durante una sessione di registrazione.</string>
+    <string name="recording_notification_title">Registrazione in corso</string>
+    <string name="recording_notification_text">%1$d foto scattate</string>
+    <string name="stop">Stop</string>
+
+    <string name="tab_main">Scatto</string>
+    <string name="sessions">Sessioni</string>
+    <string name="settings">Impostazioni</string>
+    <string name="auto_recording">Registrazione automatica</string>
+    <string name="manual_labeling">Etichettatura manuale</string>
+    <string name="start_auto">Avvia registrazione auto</string>
+    <string name="stop_auto">Ferma registrazione auto</string>
+    <string name="start_manual">Avvia sessione manuale</string>
+    <string name="stop_manual">Ferma sessione manuale</string>
+    <string name="capture_point">Scatta punto</string>
+    <string name="manage_labels">Gestisci etichette</string>
+    <string name="include_gps_csv">Includi GPS nel CSV</string>
+    <string name="interval_seconds_label">Intervallo (s)</string>
+    <string name="distance_meters_label">Distanza (m)</string>
+    <string name="exposure">Esposizione</string>
+    <string name="manual_focus">Fuoco manuale</string>
+    <string name="gps_info">Info GPS</string>
+    <string name="gps_waiting">Acquisizione segnale GPS…</string>
+    <string name="latitude_fmt">Lat %1$.6f</string>
+    <string name="longitude_fmt">Lon %1$.6f</string>
+    <string name="accuracy_fmt">Precisione %1$.1f m</string>
+    <string name="rec_auto">AUTO REC</string>
+    <string name="rec_manual">MANUALE</string>
+    <string name="auto_session_active">Sessione automatica attiva</string>
+    <string name="manual_session_active">Sessione manuale attiva</string>
+    <string name="photos_count_fmt">Foto: %1$d</string>
+    <string name="folder_fmt">Cartella: %1$s</string>
+    <string name="capture_mode">Modalità scatto</string>
+    <string name="low_battery_warning">Batteria scarica (%1$d%%)</string>
+    <string name="low_storage_warning">Spazio esaurito (&lt;500 MB)</string>
+
+    <string name="resume_session_title">Riprendere sessione?</string>
+    <string name="resume_session_body">Una sessione automatica precedente è stata interrotta con %1$d foto. Vuoi riprenderla?</string>
+    <string name="resume">Riprendi</string>
+    <string name="discard">Scarta</string>
+    <string name="cancel">Annulla</string>
+    <string name="save">Salva</string>
+    <string name="delete">Elimina</string>
+    <string name="close">Chiudi</string>
+    <string name="add">Aggiungi</string>
+    <string name="done">Fine</string>
+    <string name="rename">Rinomina</string>
+    <string name="new_label">Nuova etichetta</string>
+    <string name="optional_numeric_value">Valore numerico opzionale</string>
+    <string name="tap_label_to_remove">Tocca un\'etichetta per rimuoverla.</string>
+
+    <string name="gallery_title_fmt">Galleria (%1$d)</string>
+    <string name="map_title">Mappa</string>
+    <string name="back">Indietro</string>
+    <string name="no_sessions">Nessuna sessione. Avvia una registrazione per crearne una.</string>
+    <string name="auto">Auto</string>
+    <string name="manual">Manuale</string>
+    <string name="export">Esporta</string>
+    <string name="delete_photo">Eliminare foto?</string>
+    <string name="delete_photo_body">Verranno rimossi sia la foto che la voce nel CSV.</string>
+    <string name="rename_session">Rinomina sessione</string>
+    <string name="session_name">Nome sessione</string>
+    <string name="edit">Modifica</string>
+    <string name="edit_point">Modifica punto</string>
+    <string name="edit_point_failed">Impossibile aggiornare il punto.</string>
+
+    <string name="tab_auto">Auto</string>
+    <string name="tab_manual">Manuale</string>
+
+    <string name="resume_closed_title">Riprendere la sessione?</string>
+    <string name="resume_closed_body">Le nuove foto verranno aggiunte a \"%1$s\".</string>
+    <string name="resume_failed">Impossibile riprendere: ferma prima la sessione attiva.</string>
+    <string name="session_active_chip">ATTIVA</string>
+
+    <string name="export_failed">Esportazione non riuscita.</string>
+    <string name="export_no_data">Niente da esportare in questa sessione.</string>
+    <string name="delete_session_body">La cartella della sessione, le foto e i dati verranno eliminati definitivamente.</string>
+
+    <string name="settings_capture">Scatto</string>
+    <string name="settings_capture_subtitle">Opzioni che influenzano come vengono scattate e salvate le foto.</string>
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_feedback_subtitle">Conferme immediate durante lo scatto.</string>
+    <string name="settings_overlays">Overlay</string>
+    <string name="settings_overlays_subtitle">Aiuti visivi sull\'anteprima della fotocamera.</string>
+    <string name="settings_safety">Sicurezza</string>
+    <string name="settings_safety_subtitle">Evita di esaurire batteria o spazio durante una sessione.</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="predefined_labels">
+        <item>Damage</item>
+        <item>Corrosion</item>
+        <item>Inspection</item>
+        <item>Normal</item>
+        <item>To review</item>
+    </string-array>
+</resources>
