@@ -1,27 +1,27 @@
 # GPSPhotoApp (Android)
 
-App Android per la registrazione fotografica georeferenziata: scatta foto in automatico o manualmente durante una sessione di registrazione e le associa alle coordinate GPS, visualizzandole su mappa.
+Android app for georeferenced photo logging: automatically or manually takes photos during a recording session and tags each one with GPS coordinates, displaying them on a map.
 
-## Caratteristiche
+## Features
 
-- Registrazione di sessioni foto con scatto automatico (interval configurable) o manuale
-- Geolocalizzazione di ogni foto via GPS
-- Mappa con i punti scattati (osmdroid)
-- Galleria delle foto della sessione
-- Esportazione dei dati (GeoPackage / GPX)
-- Tema chiaro/scuro, localizzazione IT/EN
-- Nessun dato inviato online: foto e posizione restano sul dispositivo
+- Photo session recording with automatic (configurable interval) or manual shooting
+- GPS geotagging of every photo
+- Map view of captured points (osmdroid)
+- Session photo gallery
+- Data export (GeoPackage / GPX)
+- Light/dark theme, IT/EN localization
+- No data sent online: photos and location stay on the device
 
-## Tecnologia
+## Technology
 
 - Kotlin + Jetpack Compose
 - CameraX, osmdroid, Foreground Service (camera|location)
 - Gradle Kotlin DSL, version catalog (`gradle/libs.versions.toml`)
 
-## Requisiti
+## Requirements
 
 - Android 7.0+ (minSdk 24), targetSdk 35
-- Android Studio (Ladybug o più recente consigliato)
+- Android Studio (Ladybug or newer recommended)
 
 ## Build
 
@@ -29,23 +29,23 @@ App Android per la registrazione fotografica georeferenziata: scatta foto in aut
 ./gradlew assembleDebug
 ```
 
-APK di debug: `app/build/outputs/apk/debug/`
+Debug APK: `app/build/outputs/apk/debug/`
 
-(per la versione firmata e la pubblicazione su Play Store vedi `RELEASE.md`)
+(for the signed release build and Play Store publishing see `RELEASE.md`)
 
-## Struttura
+## Project structure
 
 ```
 app/src/main/java/com/example/gpsphotapp/
-├── MainActivity.kt        # entry point, permessi
+├── MainActivity.kt        # entry point, permissions
 ├── RecordingService.kt    # foreground service (camera|location)
-├── CameraManager.kt       # scatto foto (CameraX)
+├── CameraManager.kt       # photo capture (CameraX)
 ├── LocationHelper.kt      # GPS
-├── DataManager.kt / ExportManager.kt  # persistenza ed esportazione
-├── AppViewModel.kt        # logica applicativa
-└── ui/                    # schermate Compose
+├── DataManager.kt / ExportManager.kt  # persistence and export
+├── AppViewModel.kt        # app logic
+└── ui/                    # Compose screens
 ```
 
-## Licenza
+## License
 
-Copyright (c) 2025 Filippo Casini. Tutti i diritti riservati.
+Copyright (c) 2025 Filippo Casini. All rights reserved.
