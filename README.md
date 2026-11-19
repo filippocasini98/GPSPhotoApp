@@ -1,6 +1,6 @@
 # GPSPhotoApp (Android)
 
-Android app for georeferenced photo logging: automatically or manually takes photos during a recording session and tags each one with GPS coordinates, displaying them on a map.
+Android app for georeferenced photo logging: automatically or manually takes photos during a recording session, label them easily and tag each one with GPS coordinates, displaying them on a map.
 
 ## Features
 
